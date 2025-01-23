@@ -1,0 +1,5 @@
+adad = input()
+n_adad = adad.split('+')
+sorted_adad = sorted(n_adad, key=int)
+final = '+'.join(sorted_adad)
+print(final)
